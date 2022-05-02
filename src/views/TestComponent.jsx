@@ -1,5 +1,10 @@
 export default function HelloWorld() {
+
+    function handleSubmit() {
+        console.log("retrieve clicked")
+    }
+
     return (
-        <div>Hello World</div>
+        <div><button onClick={handleSubmit}>Welcome Message</button></div>
     )
 }
